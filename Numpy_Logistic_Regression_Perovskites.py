@@ -83,9 +83,3 @@ plt.legend(["Training set accuacy", "Testing set accuracy"])
 plt.xlabel("Epoch")
 plt.ylabel("Accuracy (%)")
 plt.title("Train and Test Set Accuracy (%) vs. Epoch")
-
-
-
-    
-    
-    
