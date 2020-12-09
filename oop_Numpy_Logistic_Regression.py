@@ -115,6 +115,7 @@ class LogisticRegression:
             print("Percent Training Accuracy: {}".format(self.__percent_accuracy_training(self.theta)))
             validation_accuracies.append(self.__percent_accuracy_validation(self.theta))
             print("Percent Validation Accuracy: {}".format(self.__percent_accuracy_validation(self.theta)))
+            print('-'*50) 
             
         
         if show_plots:    
