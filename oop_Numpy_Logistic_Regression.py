@@ -94,7 +94,6 @@ class LogisticRegression:
         Returns:
                 Prints training metrics and shows plots"""
             
-        #theta = np.random.normal(0, 0.5, len(self.X[1]))
         all_epochs, trainset_costs, training_accuracies, validation_accuracies = [[] for _ in range(4)]
         
         for epoch in range(self.num_epochs):
