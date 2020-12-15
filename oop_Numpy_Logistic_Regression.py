@@ -119,10 +119,6 @@ class LogisticRegression:
         
         if show_plots:    
             """ Plot training metrics over epoch """
-            plt.plot(all_epochs, trainset_costs)
-            plt.xlabel("Epoch")
-            plt.ylabel("Training Cost")
-            plt.title("Training Cost vs. Epoch")
             
             plt.plot(all_epochs, training_accuracies)
             plt.plot(all_epochs, validation_accuracies)
